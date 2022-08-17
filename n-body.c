@@ -17,11 +17,11 @@ void initial(float *x,float *y,float *z,float *vx,float *vy,float *vz,float *m){
     for(i=0;i<N;i++){
         x[i] = (float)rand()/RAND_MAX*2.0 - 1.0;
         y[i] = (float)rand()/RAND_MAX*2.0 - 1.0;
-        z[i] = 0.0f;
+        z[i] = (float)rand()/RAND_MAX*2.0 - 1.0;
         m[i] = 1.0f;
         vx[i] = (float)rand()/RAND_MAX*2.0 - 1.0;
         vy[i] = (float)rand()/RAND_MAX*2.0 - 1.0;
-        vz[i] = 0.0f;
+        vz[i] = (float)rand()/RAND_MAX*2.0 - 1.0;
     }
 }
 
